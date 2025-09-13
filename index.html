@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulateur d'Examen ECBA - IIBA Cameroun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Page d'accueil -->
+    <div id="welcome-screen" class="screen active">
+        <div class="container">
+            <header class="welcome-header">
+                <div class="logo">
+                    <div class="logo-icon">🎓</div>
+                    <div class="logo-text">
+                        <h1>IIBA Cameroun</h1>
+                        <p>International Institute of Business Analysis</p>
+                    </div>
+                </div>
+            </header>
+            
+            <div class="welcome-content">
+                <h1 class="main-title">Simulateur d'Examen ECBA</h1>
+                <p class="subtitle">Préparez-vous pour votre certification Entry Certificate in Business Analysis</p>
+                
+                <div class="exam-info">
+                    <div class="info-card">
+                        <div class="info-icon">⏱️</div>
+                        <div>
+                            <h3>60 Minutes</h3>
+                            <p>Temps limite pour l'examen</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📝</div>
+                        <div>
+                            <h3>50 Questions</h3>
+                            <p>Questions à choix multiples</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">✅</div>
+                        <div>
+                            <h3>75% Requis</h3>
+                            <p>Score minimum pour réussir</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instructions">
+                    <h3>Instructions de l'examen</h3>
+                    <ul>
+                        <li>Vous disposez de 60 minutes pour répondre aux 50 questions</li>
+                        <li>Vous pouvez marquer des questions pour les revoir plus tard</li>
+                        <li>Vous pouvez naviguer librement entre les questions</li>
+                        <li>Un score de 75% (38/50) est requis pour réussir</li>
+                        <li>Les résultats sont affichés immédiatement après soumission</li>
+                    </ul>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn btn--primary btn--lg" id="start-exam">
+                        Commencer l'Examen
+                    </button>
+                    <div class="excel-buttons">
+                        <button class="btn btn--outline" id="import-excel">
+                            📥 Importer Questions Excel
+                        </button>
+                        <button class="btn btn--outline" id="export-excel">
+                            📤 Exporter Questions Excel
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Interface d'examen -->
+    <div id="exam-screen" class="screen">
+        <div class="exam-layout">
+            <!-- Header fixe -->
+            <header class="exam-header">
+                <div class="header-left">
+                    <div class="logo-mini">
+                        <span>🎓</span>
+                        <span>IIBA Cameroun</span>
+                    </div>
+                </div>
+                <div class="header-center">
+                    <div class="timer" id="timer">
+                        <span class="timer-icon">⏰</span>
+                        <span id="time-remaining">60:00</span>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="question-counter">
+                        <span id="current-question">1</span>/<span id="total-questions">50</span>
+                    </div>
+                    <button class="btn btn--secondary btn--sm" id="mark-question">
+                        <span class="star">⭐</span> Marquer
+                    </button>
+                </div>
+            </header>
+
+            <!-- Progress bar -->
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="answered-count">0</span>/50 répondues
+                </div>
+            </div>
+
+            <!-- Contenu principal -->
+            <div class="exam-content">
+                <!-- Zone question -->
+                <div class="question-area">
+                    <div class="question-container">
+                        <h2 class="question-text" id="question-text"></h2>
+                        <div class="options-container" id="options-container">
+                            <!-- Options générées dynamiquement -->
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation -->
+                    <div class="navigation-controls">
+                        <button class="btn btn--outline" id="prev-question" disabled>
+                            ← Précédent
+                        </button>
+                        <div class="nav-middle">
+                            <button class="btn btn--outline" id="show-marked">
+                                📌 Questions marquées (<span id="marked-count">0</span>)
+                            </button>
+                        </div>
+                        <button class="btn btn--primary" id="next-question">
+                            Suivant →
+                        </button>
+                        <button class="btn btn--warning" id="finish-exam" style="display: none;">
+                            Terminer l'Examen
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Sidebar avec grille des questions -->
+                <div class="questions-sidebar">
+                    <h3>Navigation Questions</h3>
+                    <div class="questions-grid" id="questions-grid">
+                        <!-- Grille générée dynamiquement -->
+                    </div>
+                    <div class="legend">
+                        <div class="legend-item">
+                            <span class="legend-dot answered"></span>
+                            <span>Répondue</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot marked"></span>
+                            <span>Marquée</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot current"></span>
+                            <span>Actuelle</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-dot unanswered"></span>
+                            <span>Non répondue</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page de résultats -->
+    <div id="results-screen" class="screen">
+        <div class="container">
+            <div class="results-content">
+                <div class="score-section">
+                    <div class="score-circle" id="score-circle">
+                        <div class="score-value" id="score-value">0%</div>
+                        <div class="score-label">Score Final</div>
+                    </div>
+                    <div class="result-status" id="result-status">
+                        <!-- RÉUSSI/ÉCHOUÉ -->
+                    </div>
+                    <div class="score-details">
+                        <div class="score-detail">
+                            <span class="label">Bonnes réponses :</span>
+                            <span class="value" id="correct-answers">0/50</span>
+                        </div>
+                        <div class="score-detail">
+                            <span class="label">Score requis :</span>
+                            <span class="value">38/50 (75%)</span>
+                        </div>
+                        <div class="score-detail">
+                            <span class="label">Temps utilisé :</span>
+                            <span class="value" id="time-used">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-details">
+                    <div class="questions-review">
+                        <h3>Détail des Réponses</h3>
+                        <div class="questions-list" id="questions-review-list">
+                            <!-- Liste des questions générée dynamiquement -->
+                        </div>
+                    </div>
+
+                    <div class="failed-questions" id="failed-section" style="display: none;">
+                        <h3>Questions Échouées - Explications</h3>
+                        <div class="failed-list" id="failed-questions-list">
+                            <!-- Questions échouées avec explications -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn btn--primary btn--lg" id="restart-exam">
+                        🔄 Recommencer
+                    </button>
+                    <button class="btn btn--outline btn--lg" id="export-results">
+                        📊 Exporter Résultats
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de confirmation -->
+    <div id="confirm-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Confirmation</h3>
+                <button class="modal-close" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p id="modal-message"></p>
+                <div class="modal-actions">
+                    <button class="btn btn--primary" id="modal-confirm">Confirmer</button>
+                    <button class="btn btn--outline" id="modal-cancel">Annuler</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal questions marquées -->
+    <div id="marked-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Questions Marquées</h3>
+                <button class="modal-close" id="close-marked">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="marked-questions-list">
+                    <!-- Liste des questions marquées -->
+                </div>
+                <div class="no-marked" id="no-marked" style="display: none;">
+                    <p>Aucune question marquée</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal import/export Excel -->
+    <div id="excel-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="excel-title">Import/Export Excel</h3>
+                <button class="modal-close" id="close-excel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="excel-content">
+                    <!-- Contenu dynamique pour import/export -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
