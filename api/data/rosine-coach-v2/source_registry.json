@@ -1,0 +1,74 @@
+{
+  "version": "2.2",
+  "authority_order": [
+    {
+      "rank": 1,
+      "source": "current official certification blueprint/handbook",
+      "use": "exam scope, weighting, format"
+    },
+    {
+      "rank": 2,
+      "source": "BABOK v3 English",
+      "use": "certification task detail, task structure, technique numbering, normative BABOK claims"
+    },
+    {
+      "rank": 3,
+      "source": "The Business Analysis Standard v2.0 (2025)",
+      "use": "foundation, mindset, principles, practical task-card framing"
+    },
+    {
+      "rank": 4,
+      "source": "BABOK v3 French translation + official French glossary",
+      "use": "French terminology, bilingual synonyms, French page references"
+    },
+    {
+      "rank": 5,
+      "source": "verified Rosine V2 QCM metadata",
+      "use": "question-specific coaching after QA"
+    },
+    {
+      "rank": 6,
+      "source": "legacy IIBA Cameroon sidecars",
+      "use": "pedagogical evidence only"
+    },
+    {
+      "rank": 7,
+      "source": "LLM inference",
+      "use": "explanation only; never normative truth"
+    }
+  ],
+  "source_ids": [
+    {
+      "id": "BUSINESS_ANALYSIS_STANDARD_V2_2025",
+      "file": "the-business-analysis-standard.pdf",
+      "sha256": "3444de78ed3bacdc44af515f9b9b7d73cd60c6db0e446a1eee454fbaeb6bbeea",
+      "pages": 58
+    },
+    {
+      "id": "BABOK_V3_EN_MEMBER",
+      "file": "babok_guide_v3_member.pdf",
+      "sha256": "397e93f28f3ae6f06ee84dbc7b0d757384169028aedbecd0b214f896189257d9",
+      "pages": 514
+    },
+    {
+      "id": "BABOK_V3_FR_TRANSLATION",
+      "file": "babok-guide-v3-standard-french.pdf",
+      "sha256": "f48d0b658c1b293c776395224f2d4581e356f6b7ba447c480b3b8d914d02b213",
+      "pages": 623
+    },
+    {
+      "id": "BABOK_V3_FR_GLOSSARY",
+      "file": "french-glossary.pdf",
+      "sha256": "c4f8d45b2efbf7ebd086d21d2d724653219e68b706af7d469c1afbbefd782154",
+      "pages": 12
+    }
+  ],
+  "rules": [
+    "A sidecar or bank tag never overrides authoritative structured data.",
+    "Always distinguish printed book page from physical PDF page counter.",
+    "BABOK tasks have no prescribed universal execution order.",
+    "Standard v2 task names that add 'and Designs' are aliases of the corresponding BABOK v3 task.",
+    "Official French glossary terms are synonym evidence; they do not force BA Quest UI wording.",
+    "Missing or uncertain references must be marked unverified or à compléter."
+  ]
+}

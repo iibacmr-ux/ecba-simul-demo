@@ -1,0 +1,53 @@
+{
+  "version": "2.0",
+  "engine_pack_version": "2.2",
+  "source_id": "BUSINESS_ANALYSIS_STANDARD_V2_2025",
+  "authority_role": "foundation_mindset_practical_task_cards_not_exam_blueprint",
+  "critical_rules": [
+    "The six knowledge areas and 30 business analysis task descriptions have not been changed.",
+    "Certification candidates should reference the BABOK Guide and appropriate Certification Handbooks for detailed information.",
+    "Tasks may be sequential, iterative, simultaneous/concurrent, reviewed or repeated; there is no universal prescribed task order."
+  ],
+  "baccm": [
+    "Change",
+    "Need",
+    "Solution",
+    "Stakeholder",
+    "Value",
+    "Context"
+  ],
+  "principles": [
+    "See the whole",
+    "Think as a customer",
+    "Analyze to determine what is valuable",
+    "Get real using examples",
+    "Understand what is doable",
+    "Stimulate collaboration and continuous improvement",
+    "Avoid waste"
+  ],
+  "approaches": [
+    "Predictive",
+    "Adaptive",
+    "Hybrid"
+  ],
+  "foundational_competencies": [
+    "Adaptability",
+    "Facilitation",
+    "Leadership and Influencing",
+    "Problem Solving",
+    "Systems Thinking"
+  ],
+  "requirement_types": [
+    "Business requirements",
+    "Stakeholder requirements",
+    "Solution requirements - functional",
+    "Solution requirements - non-functional / quality of service",
+    "Transition requirements"
+  ],
+  "rules_for_rosine": [
+    "Use the Standard for mindset, foundations, principles and practical task-card framing.",
+    "Use BABOK v3 for detailed task structure and certification task names.",
+    "Do not infer current exam scope from a Standard task-card footer; the current blueprint/handbook controls exam scope.",
+    "Do not teach a universal BABOK task sequence."
+  ]
+}

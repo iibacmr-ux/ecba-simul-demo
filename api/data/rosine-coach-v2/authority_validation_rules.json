@@ -1,0 +1,12 @@
+{
+  "version": "2.2",
+  "runtime_gate": {
+    "manual_review": "Preserve manual_review; never auto-upgrade.",
+    "unknown_task_ref": "Suppress decisive H4/H5 and mark authority_conflict.",
+    "ka_or_name_conflict": "Suppress decisive H4/H5 and mark authority_conflict.",
+    "no_task_ref": "Allow H1-H3. Do not invent task/page references."
+  },
+  "first_next_rule": "For FIRST/NEXT/BEST questions, reason from scenario objective, available inputs, dependencies, stakeholder authority and current work state. Never use chapter-number order as a universal sequence.",
+  "page_rule": "Return both printed_page and pdf_page_1based when a page is shown.",
+  "copyright_rule": "Use structured facts, paraphrased summaries and short section/page pointers; never reproduce long passages from member-copy PDFs."
+}

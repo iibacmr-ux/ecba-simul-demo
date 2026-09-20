@@ -1,0 +1,1503 @@
+{
+  "version": "2.2",
+  "page_semantics": "printed_page is the page printed in the book; pdf_page_1based is the physical page counter in the supplied PDF.",
+  "sources": {
+    "BUSINESS_ANALYSIS_STANDARD_V2_2025": {
+      "sha256": "3444de78ed3bacdc44af515f9b9b7d73cd60c6db0e446a1eee454fbaeb6bbeea",
+      "pages": 58
+    },
+    "BABOK_V3_EN_MEMBER": {
+      "sha256": "397e93f28f3ae6f06ee84dbc7b0d757384169028aedbecd0b214f896189257d9",
+      "pages": 514
+    },
+    "BABOK_V3_FR_TRANSLATION": {
+      "sha256": "f48d0b658c1b293c776395224f2d4581e356f6b7ba447c480b3b8d914d02b213",
+      "pages": 623
+    },
+    "BABOK_V3_FR_GLOSSARY": {
+      "sha256": "c4f8d45b2efbf7ebd086d21d2d724653219e68b706af7d469c1afbbefd782154",
+      "pages": 12
+    }
+  },
+  "tasks": [
+    {
+      "ref": "3.1",
+      "name_en": "Plan Business Analysis Approach",
+      "name_fr": "Planifier l'approche de l'analyse métier",
+      "knowledge_area_en": "Business Analysis Planning and Monitoring",
+      "knowledge_area_fr": "Planification et surveillance de l'analyse métier",
+      "aliases": [
+        "Plan Business Analysis Approach",
+        "Planifier l'approche de l'analyse métier",
+        "Plan Business Analysis Approach"
+      ],
+      "babok_en": {
+        "printed_page": 24,
+        "pdf_page_1based": 34
+      },
+      "babok_fr": {
+        "printed_page": 31,
+        "pdf_page_1based": 44
+      },
+      "standard_v2": {
+        "task_card_name_en": "Plan Business Analysis Approach",
+        "printed_page": 23,
+        "pdf_page_1based": 27
+      }
+    },
+    {
+      "ref": "3.2",
+      "name_en": "Plan Stakeholder Engagement",
+      "name_fr": "Planifier l'engagement des parties prenantes",
+      "knowledge_area_en": "Business Analysis Planning and Monitoring",
+      "knowledge_area_fr": "Planification et surveillance de l'analyse métier",
+      "aliases": [
+        "Plan Stakeholder Engagement",
+        "Planifier l'engagement des parties prenantes",
+        "Plan Stakeholder Engagement"
+      ],
+      "babok_en": {
+        "printed_page": 31,
+        "pdf_page_1based": 41
+      },
+      "babok_fr": {
+        "printed_page": 41,
+        "pdf_page_1based": 54
+      },
+      "standard_v2": {
+        "task_card_name_en": "Plan Stakeholder Engagement",
+        "printed_page": 24,
+        "pdf_page_1based": 28
+      }
+    },
+    {
+      "ref": "3.3",
+      "name_en": "Plan Business Analysis Governance",
+      "name_fr": "Planifier la gouvernance de l'analyse métier",
+      "knowledge_area_en": "Business Analysis Planning and Monitoring",
+      "knowledge_area_fr": "Planification et surveillance de l'analyse métier",
+      "aliases": [
+        "Plan Business Analysis Governance",
+        "Planifier la gouvernance de l'analyse métier",
+        "Plan Business Analysis Governance"
+      ],
+      "babok_en": {
+        "printed_page": 37,
+        "pdf_page_1based": 47
+      },
+      "babok_fr": {
+        "printed_page": 48,
+        "pdf_page_1based": 61
+      },
+      "standard_v2": {
+        "task_card_name_en": "Plan Business Analysis Governance",
+        "printed_page": 25,
+        "pdf_page_1based": 29
+      }
+    },
+    {
+      "ref": "3.4",
+      "name_en": "Plan Business Analysis Information Management",
+      "name_fr": "Planifier la gestion de l’information de l’analyse métier",
+      "knowledge_area_en": "Business Analysis Planning and Monitoring",
+      "knowledge_area_fr": "Planification et surveillance de l'analyse métier",
+      "aliases": [
+        "Plan Business Analysis Information Management",
+        "Planifier la gestion de l’information de l’analyse métier",
+        "Plan Business Analysis Information Management"
+      ],
+      "babok_en": {
+        "printed_page": 42,
+        "pdf_page_1based": 52
+      },
+      "babok_fr": {
+        "printed_page": 54,
+        "pdf_page_1based": 67
+      },
+      "standard_v2": {
+        "task_card_name_en": "Plan Business Analysis Information Management",
+        "printed_page": 26,
+        "pdf_page_1based": 30
+      }
+    },
+    {
+      "ref": "3.5",
+      "name_en": "Identify Business Analysis Performance Improvements",
+      "name_fr": "Identifier les améliorations de performance de l'analyse métier",
+      "knowledge_area_en": "Business Analysis Planning and Monitoring",
+      "knowledge_area_fr": "Planification et surveillance de l'analyse métier",
+      "aliases": [
+        "Identify Business Analysis Performance Improvements",
+        "Identifier les améliorations de performance de l'analyse métier",
+        "Identify Business Analysis Performance Improvements"
+      ],
+      "babok_en": {
+        "printed_page": 47,
+        "pdf_page_1based": 57
+      },
+      "babok_fr": {
+        "printed_page": 60,
+        "pdf_page_1based": 73
+      },
+      "standard_v2": {
+        "task_card_name_en": "Identify Business Analysis Performance Improvements",
+        "printed_page": 27,
+        "pdf_page_1based": 31
+      }
+    },
+    {
+      "ref": "4.1",
+      "name_en": "Prepare for Elicitation",
+      "name_fr": "Préparer l'élicitation",
+      "knowledge_area_en": "Elicitation and Collaboration",
+      "knowledge_area_fr": "Élicitation et collaboration",
+      "aliases": [
+        "Prepare for Elicitation",
+        "Préparer l'élicitation",
+        "Prepare for Elicitation"
+      ],
+      "babok_en": {
+        "printed_page": 56,
+        "pdf_page_1based": 66
+      },
+      "babok_fr": {
+        "printed_page": 72,
+        "pdf_page_1based": 85
+      },
+      "standard_v2": {
+        "task_card_name_en": "Prepare for Elicitation",
+        "printed_page": 28,
+        "pdf_page_1based": 32
+      }
+    },
+    {
+      "ref": "4.2",
+      "name_en": "Conduct Elicitation",
+      "name_fr": "Conduire l'élicitation",
+      "knowledge_area_en": "Elicitation and Collaboration",
+      "knowledge_area_fr": "Élicitation et collaboration",
+      "aliases": [
+        "Conduct Elicitation",
+        "Conduire l'élicitation",
+        "Conduct Elicitation"
+      ],
+      "babok_en": {
+        "printed_page": 61,
+        "pdf_page_1based": 71
+      },
+      "babok_fr": {
+        "printed_page": 77,
+        "pdf_page_1based": 90
+      },
+      "standard_v2": {
+        "task_card_name_en": "Conduct Elicitation",
+        "printed_page": 29,
+        "pdf_page_1based": 33
+      }
+    },
+    {
+      "ref": "4.3",
+      "name_en": "Confirm Elicitation Results",
+      "name_fr": "Confirmer les résultats de l'élicitation",
+      "knowledge_area_en": "Elicitation and Collaboration",
+      "knowledge_area_fr": "Élicitation et collaboration",
+      "aliases": [
+        "Confirm Elicitation Results",
+        "Confirmer les résultats de l'élicitation",
+        "Confirm Elicitation Results"
+      ],
+      "babok_en": {
+        "printed_page": 65,
+        "pdf_page_1based": 75
+      },
+      "babok_fr": {
+        "printed_page": 82,
+        "pdf_page_1based": 95
+      },
+      "standard_v2": {
+        "task_card_name_en": "Confirm Elicitation Results",
+        "printed_page": 30,
+        "pdf_page_1based": 34
+      }
+    },
+    {
+      "ref": "4.4",
+      "name_en": "Communicate Business Analysis Information",
+      "name_fr": "Communiquer les informations de l'analyse métier",
+      "knowledge_area_en": "Elicitation and Collaboration",
+      "knowledge_area_fr": "Élicitation et collaboration",
+      "aliases": [
+        "Communicate Business Analysis Information",
+        "Communiquer les informations de l'analyse métier",
+        "Communicate Business Analysis Information"
+      ],
+      "babok_en": {
+        "printed_page": 67,
+        "pdf_page_1based": 77
+      },
+      "babok_fr": {
+        "printed_page": 85,
+        "pdf_page_1based": 98
+      },
+      "standard_v2": {
+        "task_card_name_en": "Communicate Business Analysis Information",
+        "printed_page": 31,
+        "pdf_page_1based": 35
+      }
+    },
+    {
+      "ref": "4.5",
+      "name_en": "Manage Stakeholder Collaboration",
+      "name_fr": "Gérer la collaboration avec les parties prenantes",
+      "knowledge_area_en": "Elicitation and Collaboration",
+      "knowledge_area_fr": "Élicitation et collaboration",
+      "aliases": [
+        "Manage Stakeholder Collaboration",
+        "Gérer la collaboration avec les parties prenantes",
+        "Manage Stakeholder Collaboration"
+      ],
+      "babok_en": {
+        "printed_page": 71,
+        "pdf_page_1based": 81
+      },
+      "babok_fr": {
+        "printed_page": 89,
+        "pdf_page_1based": 102
+      },
+      "standard_v2": {
+        "task_card_name_en": "Manage Stakeholder Collaboration",
+        "printed_page": 32,
+        "pdf_page_1based": 36
+      }
+    },
+    {
+      "ref": "5.1",
+      "name_en": "Trace Requirements",
+      "name_fr": "Traçabilité des exigences",
+      "knowledge_area_en": "Requirements Life Cycle Management",
+      "knowledge_area_fr": "Gestion du cycle de vie des exigences",
+      "aliases": [
+        "Trace Requirements",
+        "Traçabilité des exigences",
+        "Trace Requirements and Designs"
+      ],
+      "babok_en": {
+        "printed_page": 79,
+        "pdf_page_1based": 89
+      },
+      "babok_fr": {
+        "printed_page": 99,
+        "pdf_page_1based": 112
+      },
+      "standard_v2": {
+        "task_card_name_en": "Trace Requirements and Designs",
+        "printed_page": 33,
+        "pdf_page_1based": 37
+      }
+    },
+    {
+      "ref": "5.2",
+      "name_en": "Maintain Requirements",
+      "name_fr": "Maintenir les exigences",
+      "knowledge_area_en": "Requirements Life Cycle Management",
+      "knowledge_area_fr": "Gestion du cycle de vie des exigences",
+      "aliases": [
+        "Maintain Requirements",
+        "Maintenir les exigences",
+        "Maintain Requirements and Designs"
+      ],
+      "babok_en": {
+        "printed_page": 83,
+        "pdf_page_1based": 93
+      },
+      "babok_fr": {
+        "printed_page": 104,
+        "pdf_page_1based": 117
+      },
+      "standard_v2": {
+        "task_card_name_en": "Maintain Requirements and Designs",
+        "printed_page": 34,
+        "pdf_page_1based": 38
+      }
+    },
+    {
+      "ref": "5.3",
+      "name_en": "Prioritize Requirements",
+      "name_fr": "Prioriser les exigences",
+      "knowledge_area_en": "Requirements Life Cycle Management",
+      "knowledge_area_fr": "Gestion du cycle de vie des exigences",
+      "aliases": [
+        "Prioritize Requirements",
+        "Prioriser les exigences",
+        "Prioritize Requirements and Designs"
+      ],
+      "babok_en": {
+        "printed_page": 86,
+        "pdf_page_1based": 96
+      },
+      "babok_fr": {
+        "printed_page": 108,
+        "pdf_page_1based": 121
+      },
+      "standard_v2": {
+        "task_card_name_en": "Prioritize Requirements and Designs",
+        "printed_page": 35,
+        "pdf_page_1based": 39
+      }
+    },
+    {
+      "ref": "5.4",
+      "name_en": "Assess Requirements Changes",
+      "name_fr": "Évaluer les modifications apportées aux exigences",
+      "knowledge_area_en": "Requirements Life Cycle Management",
+      "knowledge_area_fr": "Gestion du cycle de vie des exigences",
+      "aliases": [
+        "Assess Requirements Changes",
+        "Évaluer les modifications apportées aux exigences",
+        "Assess Requirement and Design Changes"
+      ],
+      "babok_en": {
+        "printed_page": 91,
+        "pdf_page_1based": 101
+      },
+      "babok_fr": {
+        "printed_page": 113,
+        "pdf_page_1based": 126
+      },
+      "standard_v2": {
+        "task_card_name_en": "Assess Requirement and Design Changes",
+        "printed_page": 36,
+        "pdf_page_1based": 40
+      }
+    },
+    {
+      "ref": "5.5",
+      "name_en": "Approve Requirements",
+      "name_fr": "Approuver les exigences",
+      "knowledge_area_en": "Requirements Life Cycle Management",
+      "knowledge_area_fr": "Gestion du cycle de vie des exigences",
+      "aliases": [
+        "Approve Requirements",
+        "Approuver les exigences",
+        "Approve Requirements and Designs"
+      ],
+      "babok_en": {
+        "printed_page": 95,
+        "pdf_page_1based": 105
+      },
+      "babok_fr": {
+        "printed_page": 119,
+        "pdf_page_1based": 132
+      },
+      "standard_v2": {
+        "task_card_name_en": "Approve Requirements and Designs",
+        "printed_page": 37,
+        "pdf_page_1based": 41
+      }
+    },
+    {
+      "ref": "6.1",
+      "name_en": "Analyze Current State",
+      "name_fr": "Analyser l'état actuel",
+      "knowledge_area_en": "Strategy Analysis",
+      "knowledge_area_fr": "Analyse de la stratégie",
+      "aliases": [
+        "Analyze Current State",
+        "Analyser l'état actuel",
+        "Analyze Current State"
+      ],
+      "babok_en": {
+        "printed_page": 103,
+        "pdf_page_1based": 113
+      },
+      "babok_fr": {
+        "printed_page": 130,
+        "pdf_page_1based": 143
+      },
+      "standard_v2": {
+        "task_card_name_en": "Analyze Current State",
+        "printed_page": 38,
+        "pdf_page_1based": 42
+      }
+    },
+    {
+      "ref": "6.2",
+      "name_en": "Define Future State",
+      "name_fr": "Définir l’état futur",
+      "knowledge_area_en": "Strategy Analysis",
+      "knowledge_area_fr": "Analyse de la stratégie",
+      "aliases": [
+        "Define Future State",
+        "Définir l’état futur",
+        "Define Future State"
+      ],
+      "babok_en": {
+        "printed_page": 110,
+        "pdf_page_1based": 120
+      },
+      "babok_fr": {
+        "printed_page": 139,
+        "pdf_page_1based": 152
+      },
+      "standard_v2": {
+        "task_card_name_en": "Define Future State",
+        "printed_page": 39,
+        "pdf_page_1based": 43
+      }
+    },
+    {
+      "ref": "6.3",
+      "name_en": "Assess Risks",
+      "name_fr": "Évaluer les risques",
+      "knowledge_area_en": "Strategy Analysis",
+      "knowledge_area_fr": "Analyse de la stratégie",
+      "aliases": [
+        "Assess Risks",
+        "Évaluer les risques",
+        "Assess Risks"
+      ],
+      "babok_en": {
+        "printed_page": 120,
+        "pdf_page_1based": 130
+      },
+      "babok_fr": {
+        "printed_page": 150,
+        "pdf_page_1based": 163
+      },
+      "standard_v2": {
+        "task_card_name_en": "Assess Risks",
+        "printed_page": 40,
+        "pdf_page_1based": 44
+      }
+    },
+    {
+      "ref": "6.4",
+      "name_en": "Define Change Strategy",
+      "name_fr": "Définir la stratégie de changement",
+      "knowledge_area_en": "Strategy Analysis",
+      "knowledge_area_fr": "Analyse de la stratégie",
+      "aliases": [
+        "Define Change Strategy",
+        "Définir la stratégie de changement",
+        "Define Change Strategy"
+      ],
+      "babok_en": {
+        "printed_page": 124,
+        "pdf_page_1based": 134
+      },
+      "babok_fr": {
+        "printed_page": 156,
+        "pdf_page_1based": 169
+      },
+      "standard_v2": {
+        "task_card_name_en": "Define Change Strategy",
+        "printed_page": 41,
+        "pdf_page_1based": 45
+      }
+    },
+    {
+      "ref": "7.1",
+      "name_en": "Specify and Model Requirements",
+      "name_fr": "Spécifier et modéliser les exigences",
+      "knowledge_area_en": "Requirements Analysis and Design Definition",
+      "knowledge_area_fr": "Analyse des exigences et spécification de la conception",
+      "aliases": [
+        "Specify and Model Requirements",
+        "Spécifier et modéliser les exigences",
+        "Specify and Model Requirements and Designs"
+      ],
+      "babok_en": {
+        "printed_page": 136,
+        "pdf_page_1based": 146
+      },
+      "babok_fr": {
+        "printed_page": 169,
+        "pdf_page_1based": 182
+      },
+      "standard_v2": {
+        "task_card_name_en": "Specify and Model Requirements and Designs",
+        "printed_page": 42,
+        "pdf_page_1based": 46
+      }
+    },
+    {
+      "ref": "7.2",
+      "name_en": "Verify Requirements",
+      "name_fr": "Vérifier les exigences",
+      "knowledge_area_en": "Requirements Analysis and Design Definition",
+      "knowledge_area_fr": "Analyse des exigences et spécification de la conception",
+      "aliases": [
+        "Verify Requirements",
+        "Vérifier les exigences",
+        "Verify Requirements and Designs"
+      ],
+      "babok_en": {
+        "printed_page": 141,
+        "pdf_page_1based": 151
+      },
+      "babok_fr": {
+        "printed_page": 175,
+        "pdf_page_1based": 188
+      },
+      "standard_v2": {
+        "task_card_name_en": "Verify Requirements and Designs",
+        "printed_page": 43,
+        "pdf_page_1based": 47
+      }
+    },
+    {
+      "ref": "7.3",
+      "name_en": "Validate Requirements",
+      "name_fr": "Valider les exigences",
+      "knowledge_area_en": "Requirements Analysis and Design Definition",
+      "knowledge_area_fr": "Analyse des exigences et spécification de la conception",
+      "aliases": [
+        "Validate Requirements",
+        "Valider les exigences",
+        "Validate Requirements and Designs"
+      ],
+      "babok_en": {
+        "printed_page": 144,
+        "pdf_page_1based": 154
+      },
+      "babok_fr": {
+        "printed_page": 179,
+        "pdf_page_1based": 192
+      },
+      "standard_v2": {
+        "task_card_name_en": "Validate Requirements and Designs",
+        "printed_page": 44,
+        "pdf_page_1based": 48
+      }
+    },
+    {
+      "ref": "7.4",
+      "name_en": "Define Requirements Architecture",
+      "name_fr": "Définir l'architecture des exigences",
+      "knowledge_area_en": "Requirements Analysis and Design Definition",
+      "knowledge_area_fr": "Analyse des exigences et spécification de la conception",
+      "aliases": [
+        "Define Requirements Architecture",
+        "Définir l'architecture des exigences",
+        "Define Requirements Architecture"
+      ],
+      "babok_en": {
+        "printed_page": 148,
+        "pdf_page_1based": 158
+      },
+      "babok_fr": {
+        "printed_page": 182,
+        "pdf_page_1based": 195
+      },
+      "standard_v2": {
+        "task_card_name_en": "Define Requirements Architecture",
+        "printed_page": 45,
+        "pdf_page_1based": 49
+      }
+    },
+    {
+      "ref": "7.5",
+      "name_en": "Define Design Options",
+      "name_fr": "Définir les options de conception",
+      "knowledge_area_en": "Requirements Analysis and Design Definition",
+      "knowledge_area_fr": "Analyse des exigences et spécification de la conception",
+      "aliases": [
+        "Define Design Options",
+        "Définir les options de conception",
+        "Define Design Options"
+      ],
+      "babok_en": {
+        "printed_page": 152,
+        "pdf_page_1based": 162
+      },
+      "babok_fr": {
+        "printed_page": 188,
+        "pdf_page_1based": 201
+      },
+      "standard_v2": {
+        "task_card_name_en": "Define Design Options",
+        "printed_page": 46,
+        "pdf_page_1based": 50
+      }
+    },
+    {
+      "ref": "7.6",
+      "name_en": "Analyze Potential Value and Recommend Solution",
+      "name_fr": "Analyser la valeur potentielle et recommander une solution",
+      "knowledge_area_en": "Requirements Analysis and Design Definition",
+      "knowledge_area_fr": "Analyse des exigences et spécification de la conception",
+      "aliases": [
+        "Analyze Potential Value and Recommend Solution",
+        "Analyser la valeur potentielle et recommander une solution",
+        "Analyze Potential Value and Recommend Solution"
+      ],
+      "babok_en": {
+        "printed_page": 157,
+        "pdf_page_1based": 167
+      },
+      "babok_fr": {
+        "printed_page": 193,
+        "pdf_page_1based": 206
+      },
+      "standard_v2": {
+        "task_card_name_en": "Analyze Potential Value and Recommend Solution",
+        "printed_page": 47,
+        "pdf_page_1based": 51
+      }
+    },
+    {
+      "ref": "8.1",
+      "name_en": "Measure Solution Performance",
+      "name_fr": "Mesurer les performances de la solution",
+      "knowledge_area_en": "Solution Evaluation",
+      "knowledge_area_fr": "Évaluation de la solution",
+      "aliases": [
+        "Measure Solution Performance",
+        "Mesurer les performances de la solution",
+        "Measure Solution Performance"
+      ],
+      "babok_en": {
+        "printed_page": 166,
+        "pdf_page_1based": 176
+      },
+      "babok_fr": {
+        "printed_page": 204,
+        "pdf_page_1based": 217
+      },
+      "standard_v2": {
+        "task_card_name_en": "Measure Solution Performance",
+        "printed_page": 48,
+        "pdf_page_1based": 52
+      }
+    },
+    {
+      "ref": "8.2",
+      "name_en": "Analyze Performance Measures",
+      "name_fr": "Analyser les mesures de performance",
+      "knowledge_area_en": "Solution Evaluation",
+      "knowledge_area_fr": "Évaluation de la solution",
+      "aliases": [
+        "Analyze Performance Measures",
+        "Analyser les mesures de performance",
+        "Analyze Performance Measures"
+      ],
+      "babok_en": {
+        "printed_page": 170,
+        "pdf_page_1based": 180
+      },
+      "babok_fr": {
+        "printed_page": 209,
+        "pdf_page_1based": 222
+      },
+      "standard_v2": {
+        "task_card_name_en": "Analyze Performance Measures",
+        "printed_page": 49,
+        "pdf_page_1based": 53
+      }
+    },
+    {
+      "ref": "8.3",
+      "name_en": "Assess Solution Limitations",
+      "name_fr": "Évaluer les limites de la solution",
+      "knowledge_area_en": "Solution Evaluation",
+      "knowledge_area_fr": "Évaluation de la solution",
+      "aliases": [
+        "Assess Solution Limitations",
+        "Évaluer les limites de la solution",
+        "Assess Solution Limitations"
+      ],
+      "babok_en": {
+        "printed_page": 173,
+        "pdf_page_1based": 183
+      },
+      "babok_fr": {
+        "printed_page": 213,
+        "pdf_page_1based": 226
+      },
+      "standard_v2": {
+        "task_card_name_en": "Assess Solution Limitations",
+        "printed_page": 50,
+        "pdf_page_1based": 54
+      }
+    },
+    {
+      "ref": "8.4",
+      "name_en": "Assess Enterprise Limitations",
+      "name_fr": "Évaluer les limites de l’entreprise",
+      "knowledge_area_en": "Solution Evaluation",
+      "knowledge_area_fr": "Évaluation de la solution",
+      "aliases": [
+        "Assess Enterprise Limitations",
+        "Évaluer les limites de l’entreprise",
+        "Assess Enterprise Limitations"
+      ],
+      "babok_en": {
+        "printed_page": 177,
+        "pdf_page_1based": 187
+      },
+      "babok_fr": {
+        "printed_page": 218,
+        "pdf_page_1based": 231
+      },
+      "standard_v2": {
+        "task_card_name_en": "Assess Enterprise Limitations",
+        "printed_page": 51,
+        "pdf_page_1based": 55
+      }
+    },
+    {
+      "ref": "8.5",
+      "name_en": "Recommend Actions to Increase Solution Value",
+      "name_fr": "Recommander des actions pour augmenter la valeur de la solution",
+      "knowledge_area_en": "Solution Evaluation",
+      "knowledge_area_fr": "Évaluation de la solution",
+      "aliases": [
+        "Recommend Actions to Increase Solution Value",
+        "Recommander des actions pour augmenter la valeur de la solution",
+        "Recommend Actions to Increase Solution Value"
+      ],
+      "babok_en": {
+        "printed_page": 182,
+        "pdf_page_1based": 192
+      },
+      "babok_fr": {
+        "printed_page": 224,
+        "pdf_page_1based": 237
+      },
+      "standard_v2": {
+        "task_card_name_en": "Recommend Actions to Increase Solution Value",
+        "printed_page": 52,
+        "pdf_page_1based": 56
+      }
+    }
+  ],
+  "techniques": [
+    {
+      "ref": "10.1",
+      "name_en": "Acceptance and Evaluation Criteria",
+      "name_fr": "Critères d’acceptation et d’évaluation",
+      "babok_en": {
+        "printed_page": 217,
+        "pdf_page_1based": 227
+      },
+      "babok_fr": {
+        "printed_page": 266,
+        "pdf_page_1based": 279
+      }
+    },
+    {
+      "ref": "10.2",
+      "name_en": "Backlog Management",
+      "name_fr": "Gestion du Backlog",
+      "babok_en": {
+        "printed_page": 220,
+        "pdf_page_1based": 230
+      },
+      "babok_fr": {
+        "printed_page": 269,
+        "pdf_page_1based": 282
+      }
+    },
+    {
+      "ref": "10.3",
+      "name_en": "Balanced Scorecard",
+      "name_fr": "Balanced Scorecard",
+      "babok_en": {
+        "printed_page": 223,
+        "pdf_page_1based": 233
+      },
+      "babok_fr": {
+        "printed_page": 273,
+        "pdf_page_1based": 286
+      }
+    },
+    {
+      "ref": "10.4",
+      "name_en": "Benchmarking and Market Analysis",
+      "name_fr": "Analyse comparative et analyse de marché",
+      "babok_en": {
+        "printed_page": 226,
+        "pdf_page_1based": 236
+      },
+      "babok_fr": {
+        "printed_page": 276,
+        "pdf_page_1based": 289
+      }
+    },
+    {
+      "ref": "10.5",
+      "name_en": "Brainstorming",
+      "name_fr": "Brainstorming",
+      "babok_en": {
+        "printed_page": 227,
+        "pdf_page_1based": 237
+      },
+      "babok_fr": {
+        "printed_page": 278,
+        "pdf_page_1based": 291
+      }
+    },
+    {
+      "ref": "10.6",
+      "name_en": "Business Capability Analysis",
+      "name_fr": "Analyse des capacités métier",
+      "babok_en": {
+        "printed_page": 230,
+        "pdf_page_1based": 240
+      },
+      "babok_fr": {
+        "printed_page": 281,
+        "pdf_page_1based": 294
+      }
+    },
+    {
+      "ref": "10.7",
+      "name_en": "Business Cases",
+      "name_fr": "Étude d'opportunité (Business Case)",
+      "babok_en": {
+        "printed_page": 234,
+        "pdf_page_1based": 244
+      },
+      "babok_fr": {
+        "printed_page": 286,
+        "pdf_page_1based": 299
+      }
+    },
+    {
+      "ref": "10.8",
+      "name_en": "Business Model Canvas",
+      "name_fr": "Business Model Canvas",
+      "babok_en": {
+        "printed_page": 236,
+        "pdf_page_1based": 246
+      },
+      "babok_fr": {
+        "printed_page": 289,
+        "pdf_page_1based": 302
+      }
+    },
+    {
+      "ref": "10.9",
+      "name_en": "Business Rules Analysis",
+      "name_fr": "Analyse des règles métier",
+      "babok_en": {
+        "printed_page": 240,
+        "pdf_page_1based": 250
+      },
+      "babok_fr": {
+        "printed_page": 294,
+        "pdf_page_1based": 307
+      }
+    },
+    {
+      "ref": "10.10",
+      "name_en": "Collaborative Games",
+      "name_fr": "Jeux collaboratifs",
+      "babok_en": {
+        "printed_page": 243,
+        "pdf_page_1based": 253
+      },
+      "babok_fr": {
+        "printed_page": 298,
+        "pdf_page_1based": 311
+      }
+    },
+    {
+      "ref": "10.11",
+      "name_en": "Concept Modelling",
+      "name_fr": "Modélisation de concepts",
+      "babok_en": {
+        "printed_page": 245,
+        "pdf_page_1based": 255
+      },
+      "babok_fr": {
+        "printed_page": 301,
+        "pdf_page_1based": 314
+      }
+    },
+    {
+      "ref": "10.12",
+      "name_en": "Data Dictionary",
+      "name_fr": "Dictionnaire de données",
+      "babok_en": {
+        "printed_page": 247,
+        "pdf_page_1based": 257
+      },
+      "babok_fr": {
+        "printed_page": 303,
+        "pdf_page_1based": 316
+      }
+    },
+    {
+      "ref": "10.13",
+      "name_en": "Data Flow Diagrams",
+      "name_fr": "Diagrammes de flux de données",
+      "babok_en": {
+        "printed_page": 250,
+        "pdf_page_1based": 260
+      },
+      "babok_fr": {
+        "printed_page": 306,
+        "pdf_page_1based": 319
+      }
+    },
+    {
+      "ref": "10.14",
+      "name_en": "Data Mining",
+      "name_fr": "Exploration de données (Data Mining)",
+      "babok_en": {
+        "printed_page": 253,
+        "pdf_page_1based": 263
+      },
+      "babok_fr": {
+        "printed_page": 311,
+        "pdf_page_1based": 324
+      }
+    },
+    {
+      "ref": "10.15",
+      "name_en": "Data Modelling",
+      "name_fr": "Modélisation des données",
+      "babok_en": {
+        "printed_page": 256,
+        "pdf_page_1based": 266
+      },
+      "babok_fr": {
+        "printed_page": 315,
+        "pdf_page_1based": 328
+      }
+    },
+    {
+      "ref": "10.16",
+      "name_en": "Decision Analysis",
+      "name_fr": "Analyse des décisions",
+      "babok_en": {
+        "printed_page": 261,
+        "pdf_page_1based": 271
+      },
+      "babok_fr": {
+        "printed_page": 320,
+        "pdf_page_1based": 333
+      }
+    },
+    {
+      "ref": "10.17",
+      "name_en": "Decision Modelling",
+      "name_fr": "Modélisation des décisions",
+      "babok_en": {
+        "printed_page": 265,
+        "pdf_page_1based": 275
+      },
+      "babok_fr": {
+        "printed_page": 325,
+        "pdf_page_1based": 338
+      }
+    },
+    {
+      "ref": "10.18",
+      "name_en": "Document Analysis",
+      "name_fr": "Analyse de documents",
+      "babok_en": {
+        "printed_page": 269,
+        "pdf_page_1based": 279
+      },
+      "babok_fr": {
+        "printed_page": 330,
+        "pdf_page_1based": 343
+      }
+    },
+    {
+      "ref": "10.19",
+      "name_en": "Estimation",
+      "name_fr": "Estimation",
+      "babok_en": {
+        "printed_page": 271,
+        "pdf_page_1based": 281
+      },
+      "babok_fr": {
+        "printed_page": 333,
+        "pdf_page_1based": 346
+      }
+    },
+    {
+      "ref": "10.20",
+      "name_en": "Financial Analysis",
+      "name_fr": "Analyse financière",
+      "babok_en": {
+        "printed_page": 274,
+        "pdf_page_1based": 284
+      },
+      "babok_fr": {
+        "printed_page": 337,
+        "pdf_page_1based": 350
+      }
+    },
+    {
+      "ref": "10.21",
+      "name_en": "Focus Groups",
+      "name_fr": "Groupes de discussion (Focus Groups)",
+      "babok_en": {
+        "printed_page": 279,
+        "pdf_page_1based": 289
+      },
+      "babok_fr": {
+        "printed_page": 343,
+        "pdf_page_1based": 356
+      }
+    },
+    {
+      "ref": "10.22",
+      "name_en": "Functional Decomposition",
+      "name_fr": "Décomposition fonctionnelle",
+      "babok_en": {
+        "printed_page": 283,
+        "pdf_page_1based": 293
+      },
+      "babok_fr": {
+        "printed_page": 347,
+        "pdf_page_1based": 360
+      }
+    },
+    {
+      "ref": "10.23",
+      "name_en": "Glossary",
+      "name_fr": "Glossaire",
+      "babok_en": {
+        "printed_page": 286,
+        "pdf_page_1based": 296
+      },
+      "babok_fr": {
+        "printed_page": 351,
+        "pdf_page_1based": 364
+      }
+    },
+    {
+      "ref": "10.24",
+      "name_en": "Interface Analysis",
+      "name_fr": "Analyse des interfaces",
+      "babok_en": {
+        "printed_page": 287,
+        "pdf_page_1based": 297
+      },
+      "babok_fr": {
+        "printed_page": 353,
+        "pdf_page_1based": 366
+      }
+    },
+    {
+      "ref": "10.25",
+      "name_en": "Interviews",
+      "name_fr": "Entretiens",
+      "babok_en": {
+        "printed_page": 290,
+        "pdf_page_1based": 300
+      },
+      "babok_fr": {
+        "printed_page": 356,
+        "pdf_page_1based": 369
+      }
+    },
+    {
+      "ref": "10.26",
+      "name_en": "Item Tracking",
+      "name_fr": "Gestion des points de suivi",
+      "babok_en": {
+        "printed_page": 294,
+        "pdf_page_1based": 304
+      },
+      "babok_fr": {
+        "printed_page": 360,
+        "pdf_page_1based": 373
+      }
+    },
+    {
+      "ref": "10.27",
+      "name_en": "Lessons Learned",
+      "name_fr": "Retours d'expérience",
+      "babok_en": {
+        "printed_page": 296,
+        "pdf_page_1based": 306
+      },
+      "babok_fr": {
+        "printed_page": 363,
+        "pdf_page_1based": 376
+      }
+    },
+    {
+      "ref": "10.28",
+      "name_en": "Metrics and Key Performance Indicators (KPIs)",
+      "name_fr": "Mesures et Indicateurs clés de performance (KPIs)",
+      "babok_en": {
+        "printed_page": 297,
+        "pdf_page_1based": 307
+      },
+      "babok_fr": {
+        "printed_page": 364,
+        "pdf_page_1based": 377
+      }
+    },
+    {
+      "ref": "10.29",
+      "name_en": "Mind Mapping",
+      "name_fr": "Mind Mapping",
+      "babok_en": {
+        "printed_page": 299,
+        "pdf_page_1based": 309
+      },
+      "babok_fr": {
+        "printed_page": 368,
+        "pdf_page_1based": 381
+      }
+    },
+    {
+      "ref": "10.30",
+      "name_en": "Non-Functional Requirements Analysis",
+      "name_fr": "Analyse des exigences non fonctionnelles",
+      "babok_en": {
+        "printed_page": 302,
+        "pdf_page_1based": 312
+      },
+      "babok_fr": {
+        "printed_page": 371,
+        "pdf_page_1based": 384
+      }
+    },
+    {
+      "ref": "10.31",
+      "name_en": "Observation",
+      "name_fr": "Observation",
+      "babok_en": {
+        "printed_page": 305,
+        "pdf_page_1based": 315
+      },
+      "babok_fr": {
+        "printed_page": 375,
+        "pdf_page_1based": 388
+      }
+    },
+    {
+      "ref": "10.32",
+      "name_en": "Organizational Modelling",
+      "name_fr": "Modélisation de l'organisation",
+      "babok_en": {
+        "printed_page": 308,
+        "pdf_page_1based": 318
+      },
+      "babok_fr": {
+        "printed_page": 378,
+        "pdf_page_1based": 391
+      }
+    },
+    {
+      "ref": "10.33",
+      "name_en": "Prioritization",
+      "name_fr": "Priorisation",
+      "babok_en": {
+        "printed_page": 311,
+        "pdf_page_1based": 321
+      },
+      "babok_fr": {
+        "printed_page": 383,
+        "pdf_page_1based": 396
+      }
+    },
+    {
+      "ref": "10.34",
+      "name_en": "Process Analysis",
+      "name_fr": "Analyse des processus",
+      "babok_en": {
+        "printed_page": 314,
+        "pdf_page_1based": 324
+      },
+      "babok_fr": {
+        "printed_page": 386,
+        "pdf_page_1based": 399
+      }
+    },
+    {
+      "ref": "10.35",
+      "name_en": "Process Modelling",
+      "name_fr": "Modélisation des processus",
+      "babok_en": {
+        "printed_page": 318,
+        "pdf_page_1based": 328
+      },
+      "babok_fr": {
+        "printed_page": 390,
+        "pdf_page_1based": 403
+      }
+    },
+    {
+      "ref": "10.36",
+      "name_en": "Prototyping",
+      "name_fr": "Prototypage",
+      "babok_en": {
+        "printed_page": 323,
+        "pdf_page_1based": 333
+      },
+      "babok_fr": {
+        "printed_page": 397,
+        "pdf_page_1based": 410
+      }
+    },
+    {
+      "ref": "10.37",
+      "name_en": "Reviews",
+      "name_fr": "Revues",
+      "babok_en": {
+        "printed_page": 326,
+        "pdf_page_1based": 336
+      },
+      "babok_fr": {
+        "printed_page": 400,
+        "pdf_page_1based": 413
+      }
+    },
+    {
+      "ref": "10.38",
+      "name_en": "Risk Analysis and Management",
+      "name_fr": "Analyse et gestion des risques",
+      "babok_en": {
+        "printed_page": 329,
+        "pdf_page_1based": 339
+      },
+      "babok_fr": {
+        "printed_page": 404,
+        "pdf_page_1based": 417
+      }
+    },
+    {
+      "ref": "10.39",
+      "name_en": "Roles and Permissions Matrix",
+      "name_fr": "Matrice des rôles et des autorisations",
+      "babok_en": {
+        "printed_page": 333,
+        "pdf_page_1based": 343
+      },
+      "babok_fr": {
+        "printed_page": 409,
+        "pdf_page_1based": 422
+      }
+    },
+    {
+      "ref": "10.40",
+      "name_en": "Root Cause Analysis",
+      "name_fr": "Analyse de la cause fondamentale",
+      "babok_en": {
+        "printed_page": 335,
+        "pdf_page_1based": 345
+      },
+      "babok_fr": {
+        "printed_page": 412,
+        "pdf_page_1based": 425
+      }
+    },
+    {
+      "ref": "10.41",
+      "name_en": "Scope Modelling",
+      "name_fr": "Modélisation du périmètre",
+      "babok_en": {
+        "printed_page": 338,
+        "pdf_page_1based": 348
+      },
+      "babok_fr": {
+        "printed_page": 415,
+        "pdf_page_1based": 428
+      }
+    },
+    {
+      "ref": "10.42",
+      "name_en": "Sequence Diagrams",
+      "name_fr": "Diagrammes de séquence",
+      "babok_en": {
+        "printed_page": 341,
+        "pdf_page_1based": 351
+      },
+      "babok_fr": {
+        "printed_page": 419,
+        "pdf_page_1based": 432
+      }
+    },
+    {
+      "ref": "10.43",
+      "name_en": "Stakeholder List, Map, or Personas",
+      "name_fr": "Liste des parties prenantes, carte ou personas",
+      "babok_en": {
+        "printed_page": 344,
+        "pdf_page_1based": 354
+      },
+      "babok_fr": {
+        "printed_page": 422,
+        "pdf_page_1based": 435
+      }
+    },
+    {
+      "ref": "10.44",
+      "name_en": "State Modelling",
+      "name_fr": "Modélisation d’État",
+      "babok_en": {
+        "printed_page": 348,
+        "pdf_page_1based": 358
+      },
+      "babok_fr": {
+        "printed_page": 427,
+        "pdf_page_1based": 440
+      }
+    },
+    {
+      "ref": "10.45",
+      "name_en": "Survey or Questionnaire",
+      "name_fr": "Sondage ou questionnaire",
+      "babok_en": {
+        "printed_page": 350,
+        "pdf_page_1based": 360
+      },
+      "babok_fr": {
+        "printed_page": 430,
+        "pdf_page_1based": 443
+      }
+    },
+    {
+      "ref": "10.46",
+      "name_en": "SWOT Analysis",
+      "name_fr": "Analyse SWOT",
+      "babok_en": {
+        "printed_page": 353,
+        "pdf_page_1based": 363
+      },
+      "babok_fr": {
+        "printed_page": 434,
+        "pdf_page_1based": 447
+      }
+    },
+    {
+      "ref": "10.47",
+      "name_en": "Use Cases and Scenarios",
+      "name_fr": "Scénarios et cas d’utilisation",
+      "babok_en": {
+        "printed_page": 356,
+        "pdf_page_1based": 366
+      },
+      "babok_fr": {
+        "printed_page": 436,
+        "pdf_page_1based": 449
+      }
+    },
+    {
+      "ref": "10.48",
+      "name_en": "User Stories",
+      "name_fr": "Récits utilisateurs (User Stories)",
+      "babok_en": {
+        "printed_page": 359,
+        "pdf_page_1based": 369
+      },
+      "babok_fr": {
+        "printed_page": 440,
+        "pdf_page_1based": 453
+      }
+    },
+    {
+      "ref": "10.49",
+      "name_en": "Vendor Assessment",
+      "name_fr": "Évaluation des fournisseurs",
+      "babok_en": {
+        "printed_page": 361,
+        "pdf_page_1based": 371
+      },
+      "babok_fr": {
+        "printed_page": 443,
+        "pdf_page_1based": 456
+      }
+    },
+    {
+      "ref": "10.50",
+      "name_en": "Workshops",
+      "name_fr": "Ateliers de travail",
+      "babok_en": {
+        "printed_page": 363,
+        "pdf_page_1based": 373
+      },
+      "babok_fr": {
+        "printed_page": 445,
+        "pdf_page_1based": 458
+      }
+    }
+  ],
+  "glossary_core": [
+    {
+      "en": "business analysis",
+      "glossary_fr": "analyse d'affaires",
+      "preferred_fr": "analyse métier"
+    },
+    {
+      "en": "business analyst",
+      "glossary_fr": "analyste d'affaires",
+      "preferred_fr": "analyste métier"
+    },
+    {
+      "en": "business need",
+      "glossary_fr": "besoin d'affaires",
+      "preferred_fr": "besoin métier"
+    },
+    {
+      "en": "business requirement",
+      "glossary_fr": "exigence d'affaires",
+      "preferred_fr": "exigence métier"
+    },
+    {
+      "en": "business rule",
+      "glossary_fr": "règle d'affaires",
+      "preferred_fr": "règle métier"
+    },
+    {
+      "en": "stakeholder",
+      "glossary_fr": "partie prenante",
+      "preferred_fr": "partie prenante"
+    },
+    {
+      "en": "domain subject matter expert",
+      "glossary_fr": "expert du domaine",
+      "preferred_fr": "expert du domaine"
+    },
+    {
+      "en": "project manager",
+      "glossary_fr": "chef de projet",
+      "preferred_fr": "chef de projet"
+    },
+    {
+      "en": "operational support",
+      "glossary_fr": "soutien opérationnel",
+      "preferred_fr": "support opérationnel"
+    },
+    {
+      "en": "input (business analysis)",
+      "glossary_fr": "intrant (analyse d'affaires)",
+      "preferred_fr": "intrant"
+    },
+    {
+      "en": "guideline (business analysis)",
+      "glossary_fr": "ligne directrice (analyse d'affaires)",
+      "preferred_fr": "ligne directrice"
+    },
+    {
+      "en": "work breakdown structure (WBS)",
+      "glossary_fr": "structure de découpage du projet (SDP)",
+      "preferred_fr": "structure de découpage du projet (SDP)"
+    },
+    {
+      "en": "RFP",
+      "glossary_fr": "demande de proposition (RFP)",
+      "preferred_fr": "demande de proposition (RFP)"
+    },
+    {
+      "en": "RFQ",
+      "glossary_fr": "demande de prix (RFQ)",
+      "preferred_fr": "demande de prix (RFQ)"
+    },
+    {
+      "en": "SOW",
+      "glossary_fr": "énoncé de travail (SOW) / cahier des charges (SOW)",
+      "preferred_fr": "énoncé de travail / cahier des charges (SOW)"
+    }
+  ]
+}
